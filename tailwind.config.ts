@@ -12,7 +12,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        'primayBlue': "#191970",
+        'primaryBlue': "#191970",
         'secondaryBlue': "#000080",
         'contrastPurple': "#4B0082",
         'borderStrawberry': "#B76E79",
