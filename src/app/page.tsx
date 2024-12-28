@@ -16,7 +16,9 @@ export default function Home() {
         </div>
         <div>
           <Control />
-        
+          <footer>
+            <p className="text-center text-primaryBlue">v0.0.1</p>
+          </footer>
         </div>
       </main>
       
