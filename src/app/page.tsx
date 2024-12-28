@@ -1,6 +1,8 @@
+'use client'
 import Navbar from "./components/navbar/Navbar";
 import Game from "./components/game/Game";
 import Answer from "./components/answers/Answer";
+import Control from "./components/controls/Controls"; 
 
 export default function Home() {
   return (
@@ -10,6 +12,7 @@ export default function Home() {
         <Navbar />
         <Game />
         <Answer />
+        <Control />
       </main>
       
     </div>  
