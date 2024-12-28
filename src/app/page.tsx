@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar/Navbar";
 import Game from "./components/game/Game";
+import Answer from "./components/answers/Answer";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 relative z-10 md:w-1/2 md:mx-auto">
         <Navbar />
         <Game />
+        <Answer />
       </main>
       
     </div>  
